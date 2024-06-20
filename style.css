@@ -1,0 +1,416 @@
+ 
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:  'SoDoSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif' !important;
+  /* overflow: hidden; */
+}
+
+/* ------------ Navigation section(Navbar) ------------- */
+
+nav {
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  padding: 0 !important;
+}
+
+.navbar-brand img {
+  width: 51px;
+}
+
+.nav-text-h {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+}
+
+.ft-1 {
+  font-size: .875rem !important;
+}
+
+.ft-3 {
+  font-size: 1.5rem !important;
+}
+
+.ft {
+  font-size: 14px !important;
+}
+
+.btn-ft-2 {
+  font-size: 14px !important;
+   
+}
+
+
+
+.ft-b {
+  font-family: 'SoDoSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif' !important;
+}
+
+.ft-sb {
+  font-family: 'SoDoSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif' !important;
+}
+
+.ft-sb-1 {
+  font-family: 'SoDoSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif' !important;
+  font-weight: 600 !important;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.text-black a {
+  color: black !important;
+}
+
+.bg-black {
+  color: white !important;
+  background-color: black;
+}
+
+.fa-location-dot {
+  font-size: 1.28rem !important;
+}
+
+.btn-nav {
+  padding: 5px 16px !important;
+}
+
+.btn-nav:hover {
+  background-color: rgb(225, 225, 225) !important;
+}
+
+.btn-hov-nav:hover {
+  background-color: rgb(60, 60, 60) !important;
+}
+
+.colo-gre-rac {
+  color: #1e3932 !important;
+}
+
+.nav-left-font {
+  list-style: none !important;
+  font-family: 'SoDoSans-Bold' !important;
+  font-size: .9rem !important;
+  letter-spacing: 1px !important;
+}
+
+
+/* ---------------------------------------------------------- */
+
+.text-p-3 {
+  font-size: 13px !important;
+  line-height: 23px !important;
+}
+
+
+@media screen and (max-width:375px) {
+  .navbar-brand img {
+      width: 38px !important;
+  }
+
+  .head-1 {
+      font-size: 19px !important;
+      line-height: 29px !important;
+  }
+
+  .head-2 {
+      font-size: 24px !important;
+      line-height: 29px !important;
+  }
+
+  .text-p-1 {
+      font-size: 1rem !important;
+      line-height: 28px !important;
+  }
+
+  .text-p-2 {
+      font-size: 19px !important;
+      line-height: 29px !important;
+  }
+  
+
+}
+
+@media screen and (min-width:375px) {
+
+  .head-1 {
+      font-size: 22px !important;
+      line-height: 33px !important;
+  }
+
+  .text-p-2 {
+      font-size: 22px !important;
+      line-height: 33px !important;
+  }
+
+  .text-p-3 {
+      font-size: 13px !important;
+      line-height: 23px !important;
+  }
+  .fot-sec-top-cont h3 {
+      font-size: 16px !important;
+  }
+
+
+}
+
+@media screen and (min-width:768px) {
+  .ft {
+      font-size: 16px !important;
+  }
+
+  .head-1 {
+      font-size: 24px !important;
+      line-height: 36px !important;
+  }
+
+  .head-2 {
+      font-size: 50px !important;
+  }
+
+  .text-p-1 {
+      font-size: 19px !important;
+      line-height: 33px !important;
+  }
+
+  .text-p-2 {
+      font-size: 24px !important;
+      line-height: 36px !important;
+  }
+
+  .text-p-3 {
+      font-size: 14px !important;
+      line-height: 25px !important;
+  }
+
+  .btn-ft-2 {
+      font-size: 16px !important;
+  }
+  .fot-sec-top-cont h3 {
+      font-size: 19px !important;
+      padding: 20px 0 !important;
+  }
+  .fot-sec-top-cont p {
+      font-size: 16px !important;
+      line-height: 24px !important;
+  }
+  .list a {
+      font-size: 16px !important;
+  }
+
+}
+
+@media screen and (min-width:1072px) {
+  .img-stretch {
+      height: 100% !important;
+  }
+}
+
+
+
+
+
+/* ------------ Body sections ------------- */
+
+section {
+  margin-top: 30px;
+}
+
+.sec-0 {
+  background-color:  #c300bd;
+}
+.sec-1 {
+  background-color:  rgb(0, 33, 219);
+}
+
+.sec-2 {
+  background-color: rgb(187, 242, 209);
+}
+
+.sec-3 {
+  background-color: rgb(152, 206, 227);
+}
+
+.sec-4 {
+  background-color:rgb(151, 216, 177);
+}
+
+/* .sec-5 {
+  background-color: #97d8b1;
+} */
+
+/* .sec-6 {
+  background-color: orange;
+} */
+
+.row {
+  margin-right: 0 !important;
+}
+
+.col-12 {
+  padding: 0 !important;
+}
+
+
+.btn-hov-b,
+.btn-hov-2 {
+  padding: 5px 16px !important;
+}
+
+.btn-hov-b:hover {
+  background-color: rgba(0, 0, 0, .1) !important;
+  color: black !important;
+}
+
+.btn-hov-2:hover {
+  background-color: rgba(0, 0, 0, .1) !important;
+  color: white !important;
+}
+
+
+.ltr-space-0 {
+  letter-spacing: 0px !important;
+}
+
+.ltr-space-2 {
+  letter-spacing: 2px !important;
+}
+
+.hide-line-on-hov:hover {
+  text-decoration: none !important;
+}
+
+/* ---------------------Footer------------------------ */
+
+footer {
+  box-shadow: 0 -1px 2px 1px rgba(0, 0, 0, 0.12);
+}
+
+.fot-sec-top-cont h3 {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  padding: 13px 0 !important;
+}
+.fot-sec-top-cont h3 a {
+  text-decoration: none !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+.fot-sec-top-cont p {
+  font-size: 14px !important;
+  line-height: 21px !important;
+  color: rgb(122, 122, 122) !important;
+  padding: 4px 0 !important;
+}
+.fot-sec-top-cont p:hover {
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+
+
+
+.hr {
+  width: 100%;
+  padding: 10px 0;
+  z-index: 3;
+  background-color: white;
+}
+
+.hr hr{
+  border: none;
+  background-color: rgb(198, 198, 198);
+  width: 92%;
+  height: 2px;
+}
+
+.icons {
+  width: 100%;
+}
+
+.icon-div {
+  margin-left: 41px;
+}
+
+.icon svg {
+  margin-top: 26px;
+  margin-right: 12px;
+  margin-bottom: 14px;
+  transition: .2s;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li {
+  padding-bottom: 23px;
+}
+
+.list a {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.58);
+}
+
+.list a:hover{
+  text-decoration: underline;
+  color: black;
+
+}
+.icon svg:hover{
+  border-radius: 100%;
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .hide-lg {
+      display: none !important;
+  }
+  .navbar-brand img {
+      width: 30px !important;
+  }
+  
+}
+
+.foot-list{
+  width: 100%;
+}
+.foot-list li {
+  width: 96%;
+}
+
+@media screen and (max-width:980px) {
+  .closebtn {
+      font-size: 52px;
+  }
+  
+  .sideNav {
+      
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 70px;
+      right: 0;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-left: 30px;
+      
+  }
+  
+}
